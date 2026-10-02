@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#6e0f2a" />
+  <meta name="description" content="Sitio informativo e interactivo de la Lista Bordó A.J.T.T. — Agrupación de Jóvenes Técnicos." />
+  <meta property="og:title" content="Lista Bordó A.J.T.T." />
+  <meta property="og:description" content="Propuestas, participación y transparencia del Centro de Estudiantes." />
+  <meta property="og:type" content="website" />
+  <title>Lista Bordó A.J.T.T. · Agrupación de Jóvenes Técnicos</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%236e0f2a'/%3E%3Cpath d='M17 45V19h12c8 0 12 4 12 10s-4 10-12 10h-5v6h-7Zm7-12h4c4 0 6-1 6-4s-2-4-6-4h-4v8Z' fill='white'/%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="site-noise" aria-hidden="true"></div>
+  <div id="top" class="page-shell">
+    <header class="site-header" id="siteHeader">
+      <a class="brand" href="#top" aria-label="Inicio Lista Bordó A.J.T.T.">
+        <span class="brand-mark" aria-hidden="true">B</span>
+        <span class="brand-copy">
+          <strong>LISTA BORDÓ</strong>
+          <small>A.J.T.T. · Agrupación de Jóvenes Técnicos</small>
+        </span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Navegación principal">
+        <a href="#propuestas">Propuestas</a>
+        <a href="#participa">Participá</a>
+        <a href="#transparencia">Transparencia</a>
+        <a href="#lista">La lista</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="icon-button" id="themeToggle" type="button" aria-label="Cambiar tema" title="Cambiar tema">
+          <span class="icon-sun" aria-hidden="true">☼</span>
+        </button>
+        <button class="user-chip hidden" id="userMenuButton" type="button" aria-label="Abrir menú de usuario"></button>
+        <button class="outline-button" id="signInButton" type="button">Ingresar con Google</button>
+        <button class="menu-toggle" id="menuToggle" type="button" aria-label="Abrir menú" aria-expanded="false"><span></span><span></span><span></span></button>
+      </div>
+
+      <div class="mobile-menu" id="mobileMenu" hidden>
+        <a href="#propuestas">Propuestas</a>
+        <a href="#participa">Participá</a>
+        <a href="#transparencia">Transparencia</a>
+        <a href="#lista">La lista</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero section-pad" aria-labelledby="heroTitle">
+        <div class="hero-grid">
+          <div class="hero-copy reveal">
+            <div class="eyebrow"><span class="eyebrow-dot"></span> CENTRO · PARTICIPACIÓN · TRANSPARENCIA</div>
+            <h1 id="heroTitle">Una escuela mejor se construye <em>entre todos.</em></h1>
+            <p class="hero-lead">Un espacio para conocer nuestras propuestas, participar en ellas y seguir cada movimiento del Centro de Estudiantes con información clara.</p>
+            <div class="hero-actions-row">
+              <a class="primary-button" href="#propuestas">Ver propuestas <span>↘</span></a>
+              <button class="text-button" id="heroParticipate" type="button">Quiero participar <span>→</span></button>
+            </div>
+            <div class="hero-meta" aria-label="Características del sitio">
+              <span><b>01</b> Propuestas abiertas</span>
+              <span><b>02</b> Aportes del alumnado</span>
+              <span><b>03</b> Rendición pública</span>
+            </div>
+          </div>
+
+          <div class="hero-visual reveal delay-1" aria-hidden="true">
+            <div class="orbit orbit-1"></div>
+            <div class="orbit orbit-2"></div>
+            <div class="hero-card hero-card-main">
+              <div class="hero-card-top"><span class="mini-tag">A.J.T.T.</span><span class="status-pill"><i></i> Participación abierta</span></div>
+              <div class="hero-logo-large">B</div>
+              <div class="hero-card-title">LISTA<br><strong>BORDÓ</strong></div>
+              <div class="hero-card-bottom"><span>2026</span><span>JÓVENES TÉCNICOS</span></div>
+            </div>
+            <div class="floating-note note-one"><span class="note-icon">↗</span><b>Propuestas</b><small>Se pueden mejorar</small></div>
+            <div class="floating-note note-two"><span class="note-icon">✓</span><b>Transparencia</b><small>Todo queda registrado</small></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="statement section-pad" aria-label="Principios">
+        <div class="statement-inner reveal">
+          <span class="statement-index">00 / PRINCIPIOS</span>
+          <p>Participar no es solamente votar una idea: es <strong>poder conocerla, discutirla, mejorarla y hacer seguimiento.</strong></p>
+        </div>
+      </section>
+
+      <section id="propuestas" class="section-pad proposals-section" aria-labelledby="propuestasTitle">
+        <div class="section-heading reveal">
+          <div>
+            <div class="eyebrow"><span class="eyebrow-dot"></span> 01 · PROPUESTAS</div>
+            <h2 id="propuestasTitle">Ideas con espacio para crecer.</h2>
+          </div>
+          <div class="section-heading-side">
+            <p>Explorá cada propuesta. Podés apoyarla y, con tu cuenta de Google, dejar un comentario o presentar una mejora concreta.</p>
+            <button class="soft-button" id="newProposalButton" type="button">+ Nueva propuesta</button>
+          </div>
+        </div>
+
+        <div class="proposal-tools reveal">
+          <div class="search-box">
+            <span aria-hidden="true">⌕</span>
+            <input id="proposalSearch" type="search" placeholder="Buscar una propuesta..." autocomplete="off" />
+          </div>
+          <div class="filter-row" role="group" aria-label="Filtrar propuestas">
+            <button class="filter-button active" data-filter="all" type="button">Todas</button>
+            <button class="filter-button" data-filter="derechos" type="button">Derechos</button>
+            <button class="filter-button" data-filter="participacion" type="button">Participación</button>
+            <button class="filter-button" data-filter="escuela" type="button">Escuela</button>
+            <button class="filter-button" data-filter="transparencia" type="button">Transparencia</button>
+            <button class="filter-button" data-filter="cooperacion" type="button">Cooperación</button>
+          </div>
+          <label class="sort-select"><span>Ordenar</span><select id="proposalSort"><option value="order">Orden original</option><option value="likes">Más apoyadas</option><option value="title">Título</option></select></label>
+        </div>
+
+        <div class="proposal-grid" id="proposalGrid" aria-live="polite"></div>
+        <div class="empty-state hidden" id="proposalEmpty">No encontramos propuestas con ese filtro.</div>
+      </section>
+
+      <section id="participa" class="participation-section section-pad" aria-labelledby="participaTitle">
+        <div class="participation-card reveal">
+          <div class="participation-copy">
+            <div class="eyebrow"><span class="eyebrow-dot"></span> 02 · PARTICIPÁ</div>
+            <h2 id="participaTitle">Tu idea también puede entrar en la agenda.</h2>
+            <p>La participación requiere iniciar sesión con Google. Así cada aporte queda asociado a una cuenta y podemos mantener un registro ordenado. En la página pública <strong>no mostramos tu correo electrónico</strong>.</p>
+            <div class="participation-points">
+              <div><span>01</span><b>Comentá</b><small>Sumá contexto, dudas o acuerdos.</small></div>
+              <div><span>02</span><b>Proponé una mejora</b><small>Pedí un cambio concreto dentro de una propuesta.</small></div>
+              <div><span>03</span><b>Creá una propuesta</b><small>Presentá una idea nueva para que sea revisada.</small></div>
+            </div>
+            <button class="primary-button" id="participateButton" type="button">Ingresar y participar <span>→</span></button>
+          </div>
+          <div class="participation-art" aria-hidden="true">
+            <div class="big-number">03</div>
+            <div class="art-line line-a"></div><div class="art-line line-b"></div><div class="art-dot dot-a"></div><div class="art-dot dot-b"></div>
+            <div class="art-caption">TODAS LAS VOCES<br>EN UN MISMO LUGAR</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="transparencia" class="section-pad transparency-section" aria-labelledby="transparencyTitle">
+        <div class="section-heading reveal">
+          <div>
+            <div class="eyebrow"><span class="eyebrow-dot"></span> 03 · TRANSPARENCIA</div>
+            <h2 id="transparencyTitle">Lo que se hace, se registra.</h2>
+          </div>
+          <p class="heading-max">Actas, notas, ingresos y gastos: la información económica y administrativa publicada queda disponible para consulta.</p>
+        </div>
+
+        <div class="transparency-board reveal">
+          <div class="transparency-summary">
+            <div class="summary-item"><span>INGRESOS PUBLICADOS</span><strong id="incomeTotal">—</strong></div>
+            <div class="summary-item"><span>GASTOS PUBLICADOS</span><strong id="expenseTotal">—</strong></div>
+            <div class="summary-item balance"><span>BALANCE REGISTRADO</span><strong id="balanceTotal">—</strong></div>
+          </div>
+          <div class="transparency-list" id="transparencyList">
+            <div class="loading-row"><span class="spinner"></span> Cargando registros...</div>
+          </div>
+          <div class="transparency-footnote"><span>ⓘ</span> Esta sección se actualiza con los registros publicados por el Centro. Los importes se muestran en pesos argentinos.</div>
+        </div>
+      </section>
+
+      <section id="lista" class="section-pad list-section" aria-labelledby="listaTitle">
+        <div class="section-heading reveal">
+          <div>
+            <div class="eyebrow"><span class="eyebrow-dot"></span> 04 · LA LISTA</div>
+            <h2 id="listaTitle">Organización.</h2>
+          </div>
+          <p class="heading-max">Comisión Directiva y departamentos de trabajo.</p>
+        </div>
+        <div class="team-layout reveal">
+          <div class="team-feature">
+            <div class="team-label">COMISIÓN DIRECTIVA</div>
+            <div class="team-president"><span class="avatar-letter">M</span><div><small>Presidente · 5.º 4.ª</small><strong>Martín Franco</strong></div></div>
+            <div class="team-list">
+              <div><span>Vicepresidente</span><b>Fernando Sinay</b><small>5.º 3.ª</small></div>
+              <div><span>Secretario</span><b>Tomás Sierra</b><small>5.º 3.ª</small></div>
+              <div><span>Tesorero</span><b>Juan Calabrese</b><small>5.º 3.ª</small></div>
+            </div>
+          </div>
+          <div class="department-grid">
+            <article class="department-card"><span class="dept-no">01</span><h3>Recreación, Deporte<br>& Cultura</h3><div class="dept-person"><b>Joaquín Rivelli</b><small>Vocal · 5.º 3.ª</small></div><div class="dept-person"><b>Facundo Cabrera</b><small>Vocal · 5.º 3.ª</small></div></article>
+            <article class="department-card"><span class="dept-no">02</span><h3>Prensa &<br>Comunicación</h3><div class="dept-person"><b>Emilia Agüero</b><small>Vocal · 5.º 4.ª</small></div></article>
+            <article class="department-card"><span class="dept-no">03</span><h3>Derechos<br>Estudiantiles</h3><div class="dept-person"><b>Nicolás Baracetti</b><small>Vocal · 5.º 3.ª</small></div><div class="dept-person"><b>Lautaro López</b><small>Vocal · 5.º 3.ª</small></div></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="closing-section section-pad">
+        <div class="closing-card reveal">
+          <div class="closing-mark">B</div>
+          <div><div class="eyebrow"><span class="eyebrow-dot"></span> COMPROMISO</div><h2>Dejar la escuela mejor que como la encontramos.</h2><p>Dar todo lo que tengamos para cuidar, mejorar y fortalecer nuestros espacios de participación.</p></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-main section-pad">
+        <div class="footer-brand"><span class="brand-mark">B</span><div><strong>LISTA BORDÓ A.J.T.T.</strong><small>Agrupación de Jóvenes Técnicos</small></div></div>
+        <div class="footer-columns">
+          <div><span>Secciones</span><a href="#propuestas">Propuestas</a><a href="#participa">Participá</a><a href="#transparencia">Transparencia</a><a href="#lista">La lista</a></div>
+          <div><span>Canales</span><a class="contact-placeholder" data-config="web" href="#">Página web</a><a class="contact-placeholder" data-config="instagram" href="#">Instagram</a><a class="contact-placeholder" data-config="email" href="#">Mail del Centro</a></div>
+          <div><span>Cuenta</span><button class="footer-link" id="footerAccountButton" type="button">Iniciar sesión</button><button class="footer-link hidden" id="footerSignOutButton" type="button">Cerrar sesión</button></div>
+        </div>
+      </div>
+      <div class="footer-bottom"><div>© 2026 · Lista Bordó A.J.T.T.</div><div>Participación · Registro · Transparencia</div></div>
+    </footer>
+  </div>
+
+  <div class="modal-backdrop" id="authModal" hidden>
+    <div class="modal-card auth-modal" role="dialog" aria-modal="true" aria-labelledby="authTitle">
+      <button class="modal-close" data-close="authModal" type="button" aria-label="Cerrar">×</button>
+      <div class="modal-kicker">PARTICIPACIÓN</div>
+      <h2 id="authTitle">Iniciá sesión para participar.</h2>
+      <p>Usamos Google para identificar cada aporte y evitar cuentas anónimas. Tu correo no se publica junto a tus comentarios.</p>
+      <button class="google-button" id="modalGoogleButton" type="button"><span class="google-g">G</span> Continuar con Google</button>
+      <small class="modal-note">Al continuar, la cuenta se usa para autenticarte en este sitio.</small>
+    </div>
+  </div>
+
+  <div class="modal-backdrop" id="commentModal" hidden>
+    <div class="modal-card wide-modal" role="dialog" aria-modal="true" aria-labelledby="commentTitle">
+      <button class="modal-close" data-close="commentModal" type="button" aria-label="Cerrar">×</button>
+      <div class="modal-kicker">PARTICIPACIÓN · PROPUESTA</div>
+      <h2 id="commentTitle">Aportar a la propuesta</h2>
+      <p id="commentContext" class="modal-context"></p>
+      <form id="commentForm" novalidate>
+        <input type="hidden" id="commentProposalId" />
+        <div class="field"><label for="commentType">Tipo de aporte</label><select id="commentType"><option value="comentario">Comentario</option><option value="sugerencia">Sugerencia de mejora</option><option value="solicitud">Solicitud concreta</option><option value="modificacion">Modificación propuesta</option></select></div>
+        <div class="field"><label for="commentText">Tu aporte</label><textarea id="commentText" rows="6" maxlength="1000" placeholder="Escribí de forma clara y respetuosa..." required></textarea><div class="field-help"><span>Máximo 1000 caracteres.</span><span id="commentCounter">0 / 1000</span></div></div>
+        <div class="form-actions"><button class="soft-button" data-close="commentModal" type="button">Cancelar</button><button class="primary-button" type="submit">Publicar aporte <span>→</span></button></div>
+      </form>
+    </div>
+  </div>
+
+  <div class="modal-backdrop" id="newProposalModal" hidden>
+    <div class="modal-card wide-modal" role="dialog" aria-modal="true" aria-labelledby="newProposalTitle">
+      <button class="modal-close" data-close="newProposalModal" type="button" aria-label="Cerrar">×</button>
+      <div class="modal-kicker">PARTICIPACIÓN · PROPUESTA NUEVA</div>
+      <h2 id="newProposalTitle">Presentar una propuesta.</h2>
+      <p>La idea se registra con tu cuenta y queda disponible para revisión antes de publicarse como propuesta institucional.</p>
+      <form id="newProposalForm" novalidate>
+        <div class="field"><label for="newProposalTitleInput">Título</label><input id="newProposalTitleInput" type="text" maxlength="90" placeholder="Ej.: Espacio de estudio en recreos" required /></div>
+        <div class="field"><label for="newProposalCategory">Categoría</label><select id="newProposalCategory"><option value="derechos">Derechos</option><option value="participacion">Participación</option><option value="escuela">Escuela</option><option value="transparencia">Transparencia</option><option value="cooperacion">Cooperación</option></select></div>
+        <div class="field"><label for="newProposalText">Descripción</label><textarea id="newProposalText" rows="7" maxlength="1500" placeholder="Contanos qué proponés, por qué y, si podés, cómo llevarlo a cabo." required></textarea><div class="field-help"><span>Máximo 1500 caracteres.</span><span id="proposalCounter">0 / 1500</span></div></div>
+        <div class="form-actions"><button class="soft-button" data-close="newProposalModal" type="button">Cancelar</button><button class="primary-button" type="submit">Enviar para revisión <span>→</span></button></div>
+      </form>
+    </div>
+  </div>
+
+  <div class="modal-backdrop" id="profileModal" hidden>
+    <div class="modal-card profile-modal" role="dialog" aria-modal="true" aria-labelledby="profileTitle">
+      <button class="modal-close" data-close="profileModal" type="button" aria-label="Cerrar">×</button>
+      <div id="profileContent"></div>
+    </div>
+  </div>
+
+  <div class="toast-stack" id="toastStack" aria-live="polite" aria-atomic="true"></div>
+  <button class="back-to-top" id="backToTop" type="button" aria-label="Volver arriba">↑</button>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
